@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS departments;
+CREATE DATABASE departments;
