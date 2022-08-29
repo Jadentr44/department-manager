@@ -4,9 +4,9 @@ inquirer
   .prompt([
     {
       type: 'list',
-      name: 'reptile',
-      message: 'Which is better?',
-      choices: ['alligator', 'crocodile'],
+      name: 'option',
+      message: 'What would you like to view?',
+      choices: ['all roles', 'crocodile'],
     },
   ])
   .then(answers => {
