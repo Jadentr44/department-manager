@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Jadentr44/department-manager#readme",
   "dependencies": {
     "inquirer": "^6.5.0",
+    "mysql2": "^2.3.3",
     "sequelize": "^6.21.3"
   }
 }
