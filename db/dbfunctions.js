@@ -12,10 +12,23 @@ const db = mysql.createConnection(
 
 function viewDep(){
   db.query('SELECT * FROM department', function (err, results) {
-    console.log(results);
+    return console.log(results);
   });
 }
 
+function viewEmp(){
+  db.query('SELECT * FROM employee', function (err, results) {
+    return console.log(results);
+  });
+}
+
+function viewRoles(){
+  db.query('SELECT * FROM roles', function (err, results) {
+    return console.log(results);
+  });
+}
 module.exports = {
   viewDep,
+  viewEmp,
+  viewRoles
 }
